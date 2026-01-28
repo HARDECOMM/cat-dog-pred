@@ -21,14 +21,16 @@ Build and deploy a lightweight computer vision model using transfer learning to 
 **📂 Dataset**
 Kaggle Cats and Dogs (~25k images):
 
-**Project Structure**
+## 📁 dataset Structure
+```
 cats-and-dogs/
-     ├ ── training/training    # 8k+ images
-     │     ├── cats/
-     │     └── dogs/
-     └──   test/     # 2k images
-     └──       dogs/
-     └──       cats
+├── training/
+│   ├── cats/      # 8k+ images
+│   └── dogs/
+└── test/
+    ├── cats/      # 2k images
+    └── dogs/
+```
     
 **⚙️ Quick Setup**
 Clone & install:
@@ -57,13 +59,14 @@ Perf: ~98% test accuracy (varies by epochs/dataset).
 
 Input Image → MobileNetV2 → [0.92 Dog, 0.08 Cat] → 🐶 Dog (92%)
 
-**📁 Folder Structure**
-
+## 📁 Project Structure
+```
 cats-dogs-streamlit/
-├── model/          # cat_dog_model.pth
-├── app.py          # Streamlit app
-├── requirements.txt
-└── README.md
+├── model/              # cat_dog_model.pth
+├── app.py             # Streamlit app
+├── requirements.txt   # Dependencies
+└── README.md          # Project docs
+```
 
 **📊 Results**
 Metric	Value
