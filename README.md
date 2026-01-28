@@ -23,12 +23,12 @@ Kaggle Cats and Dogs (~25k images):
 
 **Project Structure**
 cats-and-dogs/
-     ├── training/training    # 8k+ images
-     │   ├── cats/
-     │   └── dogs/
-     └── test/     # 2k images
-     ├── cats/
-     └── dogs/
+     ├ ── training/training    # 8k+ images
+     │     ├── cats/
+     │     └── dogs/
+     └──   test/     # 2k images
+     └──       dogs/
+     └──       cats
     
 **⚙️ Quick Setup**
 Clone & install:
