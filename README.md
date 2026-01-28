@@ -10,13 +10,13 @@ Custom MobileNetV2 model classifying cat 🐱 vs dog 🐶 images, deployed as an
 Build and deploy a lightweight computer vision model using transfer learning to distinguish cats from dogs with ~98% test accuracy.
 
 **🧩 Key Features**
---Efficient Model: Fine-tuned MobileNetV2 (ImageNet pretrained).
+Efficient Model: Fine-tuned MobileNetV2 (ImageNet pretrained).
 
---Real-Time Web App: Streamlit UI for image uploads and predictions.
+Real-Time Web App: Streamlit UI for image uploads and predictions.
 
---High Accuracy: Cross-entropy loss + Adam optimizer.
+High Accuracy: Cross-entropy loss + Adam optimizer.
 
---Easy Deploy: One-click setup; works on Streamlit Cloud.
+Easy Deploy: One-click setup; works on Streamlit Cloud.
 
 **📂 Dataset**
 Kaggle Cats and Dogs (~25k images):
