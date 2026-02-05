@@ -60,20 +60,11 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 # Image Predictions
 
 ## Predictions
+![cat_probability](cat_pred.JPG)  
+**Cat Prediction:** 92%
 
-<div style="display: flex; align-items: center;">
-
-  <div style="margin-right: 20px;">
-    ![cat_probability](cat_pred.JPG)  
-    **Cat Prediction:** 92%
-  </div>
-
-  <div>
-    ![dog_probability](dog_pred.JPG)  
-    **Dog Prediction:** 92%
-  </div>
-
-</div>
+![dog_probability](dog_pred.JPG)  
+**Dog Prediction:** 92%
 
 ## 📁 Project Structure
 ```
