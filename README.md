@@ -1,4 +1,4 @@
-[Link Text](https://cat-dog-pred-rsr3newzqqbqfg78rvudiw.streamlit.app/) 
+[Click the Streamlit_app](https://cat-dog-pred-rsr3newzqqbqfg78rvudiw.streamlit.app/) 
 
 # 🐱🐶Cats vs Dogs Image Classifier
 
@@ -53,9 +53,9 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 
 - Perf: ~98% test accuracy (varies by epochs/dataset).
 
-- Input Image → MobileNetV2 → [0.92 Dog, 0.08 Cat] → 🐶 Dog (92%)
+- Input Image → MobileNetV2 → [0.99 Dog, 0.99 Cat] → 🐶 Dog (99%) & Cat (99%)
 
-- 
+![cat_probability](cat_pred.JPG) ![dog_probability](dog_pred.JPG)
 
 ## 📁 Project Structure
 ```
@@ -71,6 +71,11 @@ Metric	Value
 Test Acc.	98%
 Inference	<1s
 Model Size	9MB
+
+## Shortcomming
+Despite the accuracy, the model confuse with uncleared dataset 
+- as a result ensure you add more features to cover diverse set of features
+- also ensure feed the model with cleared image of dog or cat
 
 **🔗 Resources**
 
