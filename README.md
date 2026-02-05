@@ -55,7 +55,8 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 
 - Input Image → MobileNetV2 → [0.99 Dog, 0.99 Cat] → 🐶 Dog (99%) & Cat (99%)
 
-![cat_probability](cat_pred.JPG) ![dog_probability](dog_pred.JPG)
+![cat_probability](cat_pred.JPG) 
+![dog_probability](dog_pred.JPG)
 
 ## 📁 Project Structure
 ```
@@ -66,18 +67,18 @@ cats-dogs-streamlit/
 └── README.md          ## Project docs
 ```
 
-## 📊 Results**
+## 📊 ***Results***
 Metric	Value
 Test Acc.	98%
 Inference	<1s
 Model Size	9MB
 
-## Shortcomming
+## ***Shortcomming***
 Despite the accuracy, the model confuse with uncleared dataset 
 - as a result ensure you add more features to cover diverse set of features
 - also ensure feed the model with cleared image of dog or cat
 
-**🔗 Resources**
+## ***🔗 Resources***
 
 PyTorch ImageFolder
 MobileNetV2
