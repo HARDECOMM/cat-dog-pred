@@ -9,6 +9,14 @@
 ***🎯 Aim***
 Build and deploy a lightweight computer vision model using transfer learning to distinguish cats from dogs with ~98% test accuracy.
 
+***Context***
+- The objective of this project is to finetune MobileNet which was pretrained with 1000 fetaures, for binary feature of dog and cat, 
+    - this actually done to bridge the gap betweeen available resources and unenough datasets for training from start.
+
+***Problem Statement***
+
+- A classification task that aim to Build a system that can identify dogs and/or cats
+
 ***🧩 Key Features***
 - Efficient Model: Fine-tuned MobileNetV2 (ImageNet pretrained).
 
