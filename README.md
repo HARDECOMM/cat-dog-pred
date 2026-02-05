@@ -55,16 +55,6 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 
 - Input Image → MobileNetV2 → [0.99 Dog, 0.99 Cat] → 🐶 Dog (99%) & Cat (99%)
 
-# Image Predictions
-
-## Predictions
-
-![cat_probability](cat_pred.JPG)  
-**Cat Prediction:** 92%
-
-![dog_probability](dog_pred.JPG)  
-**Dog Prediction:** 92%
-
 ## 📁 Project Structure
 ```
 cats-dogs-streamlit/
