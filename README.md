@@ -58,6 +58,14 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 ![cat_probability](cat_pred.JPG) 
 ![dog_probability](dog_pred.JPG)
 
+# Image Predictions
+
+## Cat Prediction
+![cat_probability](cat_pred.JPG)
+
+## Dog Prediction
+![dog_probability](dog_pred.JPG)
+
 ## 📁 Project Structure
 ```
 cats-dogs-streamlit/
