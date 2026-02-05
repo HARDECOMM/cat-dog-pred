@@ -57,9 +57,8 @@ Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 
 # Image Predictions
 
-# Image Predictions
-
 ## Predictions
+
 ![cat_probability](cat_pred.JPG)  
 **Cat Prediction:** 92%
 
