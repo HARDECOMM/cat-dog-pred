@@ -1,24 +1,24 @@
-**Streamlit_app_url:** https://cat-dog-pred-rsr3newzqqbqfg78rvudiw.streamlit.app/
+[Link Text](https://cat-dog-pred-rsr3newzqqbqfg78rvudiw.streamlit.app/) 
 
-🐱🐶 Cats vs Dogs Image Classifier
+# 🐱🐶Cats vs Dogs Image Classifier
 
-Custom MobileNetV2 model classifying cat 🐱 vs dog 🐶 images, deployed as an interactive Streamlit web app for real-time predictions.
+*Custom MobileNetV2 model classifying cat 🐱 vs dog 🐶 images, deployed as an interactive Streamlit web app for real-time predictions.*
 
-**Mechanism:**: (Upload an image → Get instant prediction with confidence!)
+***Mechanism:***: (Upload an image → Get instant prediction with confidence!)
 
-**🎯 Aim**
+***🎯 Aim***
 Build and deploy a lightweight computer vision model using transfer learning to distinguish cats from dogs with ~98% test accuracy.
 
-**🧩 Key Features**
-Efficient Model: Fine-tuned MobileNetV2 (ImageNet pretrained).
+***🧩 Key Features***
+- Efficient Model: Fine-tuned MobileNetV2 (ImageNet pretrained).
 
-Real-Time Web App: Streamlit UI for image uploads and predictions.
+- Real-Time Web App: Streamlit UI for image uploads and predictions.
 
-High Accuracy: Cross-entropy loss + Adam optimizer.
+- High Accuracy: Cross-entropy loss + Adam optimizer.
 
-Easy Deploy: One-click setup; works on Streamlit Cloud.
+- Easy Deploy: One-click setup; works on Streamlit Cloud.
 
-**📂 Dataset**
+# ***📂 Dataset***
 Kaggle Cats and Dogs (~25k images):
 
 ## 📁 dataset Structure
@@ -32,43 +32,41 @@ cats-and-dogs/
     └── dogs/
 ```
     
-**⚙️ Quick Setup**
+***⚙️ Quick Setup***
 Clone & install:
 
-git clone https://github.com/HARDECOMM/cat-dog-pred.git
+git clone [Link Text](https://github.com/HARDECOMM/cat-dog-pred.git)
 cd cat-dog-pred
 pip install -r requirements.txt
-Add your trained model: model/cat_dog_model.pth
+Add your trained model: ***model/cat_dog_model.pth***
 
-**Run:** streamlit run app.py
+***Run:*** streamlit run app.py
 
 Streamlit Cloud: Fork → Connect repo → Deploy (free!).
 
-🧠 Model Breakdown
-Architecture: MobileNetV2 backbone (frozen features) + custom 2-class head.
+## 🧠 Model Breakdown
+- Architecture: MobileNetV2 backbone (frozen features) + custom 2-class head.
 
-Preprocessing: Resize to 
-224
-×
-224
-224×224, normalize.
+- Preprocessing: Resize to 224 × 224.
 
-Inference: Argmax on softmax probabilities.
+- Inference: Argmax on softmax probabilities.
 
-Perf: ~98% test accuracy (varies by epochs/dataset).
+- Perf: ~98% test accuracy (varies by epochs/dataset).
 
-Input Image → MobileNetV2 → [0.92 Dog, 0.08 Cat] → 🐶 Dog (92%)
+- Input Image → MobileNetV2 → [0.92 Dog, 0.08 Cat] → 🐶 Dog (92%)
+
+- 
 
 ## 📁 Project Structure
 ```
 cats-dogs-streamlit/
-├── model/              # cat_dog_model.pth
-├── app.py             # Streamlit app
-├── requirements.txt   # Dependencies
-└── README.md          # Project docs
+├── model/              ## cat_dog_model.pth
+├── app.py             ## Streamlit app
+├── requirements.txt   ## Dependencies
+└── README.md          ## Project docs
 ```
 
-**📊 Results**
+## 📊 Results**
 Metric	Value
 Test Acc.	98%
 Inference	<1s
