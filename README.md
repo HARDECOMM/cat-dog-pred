@@ -43,7 +43,7 @@ cats-and-dogs/
 ***⚙️ Quick Setup***
 Clone & install:
 
-git clone [Link Text](https://github.com/HARDECOMM/cat-dog-pred.git)
+git clone [git repository](https://github.com/HARDECOMM/cat-dog-pred.git)
 cd cat-dog-pred
 pip install -r requirements.txt
 Add your trained model: ***model/cat_dog_model.pth***
